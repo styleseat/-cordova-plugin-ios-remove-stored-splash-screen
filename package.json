@@ -8,7 +8,7 @@
     ]
   },
   "description": "Removes the stored splash screen so only the new splash screen is seen",
-  "repository": "",
+  "repository": "https://github.com/Aphinith/cordova-plugin-remove-stored-splash-screen",
   "keywords": [
     "ecosystem:cordova",
     "cordova",

@@ -10,8 +10,6 @@
     <keywords>ecosystem:cordova,cordova,cordova-ios,uiwebview,wkwebview,launch-screen</keywords>
     <repo></repo>
 
-    <!-- <dependency id="cordova-plugin-remove-old-splash-screen" version="0.0.1" /> -->
-
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="RemoveStoredSplashScreen">
