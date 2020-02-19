@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-remove-stored-splash-screen",
+  "version": "0.0.1",
+  "cordova": {
+    "id": "cordova-plugin-remove-stored-splash-screen",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "description": "Removes the stored splash screen so only the new splash screen is seen",
+  "repository": "",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "cordova-ios",
+    "uiwebview",
+    "wkwebview",
+    "splash-screen"
+  ],
+  "author": "Aralya Yee-Phinith <aralya@styleseat.com>",
+  "license": "Apache 2.0"
+}

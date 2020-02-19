@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-remove-stored-splash-screen"
+        version="0.0.1">
+    <name>Remove Stored Splash Screen</name>
+    <description>Removes the stored splash screen so only the new splash screen is seen</description>
+    <license>Apache 2.0</license>
+    <keywords>ecosystem:cordova,cordova,cordova-ios,uiwebview,wkwebview,launch-screen</keywords>
+    <repo></repo>
+
+    <!-- <dependency id="cordova-plugin-remove-old-splash-screen" version="0.0.1" /> -->
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="RemoveStoredSplashScreen">
+                <param name="ios-package" value="RemoveStoredSplashScreen" onload="true" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/RemoveOldSplashScreen.h" />
+        <source-file src="src/ios/RemoveOldSplashScreen.m" />
+    </platform>
+
+</plugin>
