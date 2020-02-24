@@ -6,7 +6,7 @@ Removes the splash screen that is stored in the `Library/SplashBoard` path.
 
 Simply add the plugin to your cordova project via the cli:
 ```sh
-cordova plugin add https://github.com/Aphinith/cordova-plugin-remove-stored-splash-screen
+cordova plugin add https://github.com/styleseat/cordova-plugin-ios-remove-stored-splash-screen
 ```
 
 ## Background
